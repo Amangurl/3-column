@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    background-color: white;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+
+html {
+    
+    font-size: 62.5%;
+}
+
+.main {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 100vh;
+    place-items: center;
+    width: 72.5 rem;
+}
+
+.container {
+    border-radius: 9px;
+    display: grid;
+    font-size: 15px;
+    border-radius: 7px;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    width: 52.5 rem;
+
+}
+
+.car-card {
+    line-height: 3.5rem;
+    height: 500px;
+    padding: 5rem 4rem 6rem 4rem;
+
+}
+img
+{
+    height: 50px;
+    width: 90px;
+}
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+p {
+    font-weight: 400;
+    margin-top: 70px;
+    margin-right: 50px;
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+h1 {
+    font-weight: 700;
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 4.5rem;
+    margin-bottom: 2.5rem;
+    color: hsl(0, 0%, 95%);
+}
+
+button {
+    
+    font-size: 15px;
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 50px;
+    color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    font-family: "Lexend Deca", sans-serif;
+    padding: 1.2rem 3rem;
+}
+
+.sedan-btn {
+    margin-top: 100px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.sedan-btn:hover {
+    cursor: pointer;
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+}
+
+.suv-btn {
+    margin-top: 99px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suv-btn:hover {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+
+.luxury-btn {
+    margin-top: 99px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury-btn:hover {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    cursor: pointer;
+}
+@media screen and (width:375px){
+    html {
+        font-size: 50%;
+      }
+    }
+    
